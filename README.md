@@ -1,21 +1,13 @@
-# projet-projet
+# Projet-projet
+Projet de projet
+Projet d'un site visant à promouvoir le fiml fdu future grand réalisateur mondiallement connu: Anthony Cattttin.
+Ce site va vous porésenter sa premiere oeuvre deja culte: TM.
+Vous aurez l'occasion de découvrire quelques rush, les personnages, la synopsie, des trailers, etc ...
 
-> A Vue.js project
+Repartition du travail:
 
-## Build Setup
+Anthony:contenu
 
-``` bash
-# install dependencies
-npm install
+Giorgio:html/css
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Thibault:Javascipt
