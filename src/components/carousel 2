@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Carroussel en Rotation</title>
+		<SCRIPT type="text/javascript" src="JS/Carroussel_rotation.js"></script>
+		<SCRIPT type="text/javascript">
+
+			var Caroussel;
+			function GenererCarrousel(){
+
+				var Car_Image_Sources=new Array(
+					"Img/tfile_menu_pic1.jpg",
+					"Img/tfile_menu_pic2.jpg",
+					"Img/tfile_menu_pic3.jpg",
+					"Img/tfile_menu_pic4.jpg",
+					"Img/tfile_menu_pic5.jpg",
+					"Img/tfile_menu_pic6.jpg"
+				);
+				Caroussel=new Carroussel_Rotation(document.getElementById('Carousel_Menu'),Car_Image_Sources);
+				Caroussel.RedimentionnerCalque(0); //Ajuste le calque à la taille maximal  de l'image la plus grande
+				Caroussel.Definir_Vitesse(100); //Vitesse de rotation des photos (par défault 50ms)
+				Caroussel.Vitesse_Changement_Images(2); //Vitesse de modifications de la taille des photos (par défault 5pixels)
+				// Caroussel.Definir_Vitesse_Fondu(0.01); //Vitesse du fondu
+			}
+		</script>
+
+	</head>
+	<body onload="javascript:GenererCarrousel();">
+		<center>
+		<h1>Carroussel en rotation</h1>
+
+		<div id="Carousel_Menu" style="position:relative; width: 600px;height: 300px; padding-bottom: 10px;">&nbsp;</div>
+		</center>
+	</body>
+</html>
