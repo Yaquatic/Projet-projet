@@ -18,12 +18,7 @@
 
       <br>
       <li>
-        <a
-          href="/#/test1"
-          target=""
-        >
-          test1
-        </a>
+
       </li>
     </ul>
 
@@ -35,7 +30,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Site du film, TM'
+      msg: 'Les acteurs'
     }
   }
 }
